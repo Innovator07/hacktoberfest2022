@@ -1,0 +1,19 @@
+# Import libraries
+from matplotlib import pyplot as plt
+import numpy as np
+
+
+# Creating dataset
+IT_Companies = ['Accenture', 'TCS', 'Wipro',
+		'HCL', 'Capegemini', 'IBM']
+
+AnnualGrowth_FY22 = [26, 25, 20, 14,22,27]
+
+# Creating plot
+fig = plt.figure(figsize =(10, 7))
+plt.pie(data, labels = IT_Companies, autopct='%1.1f%%', shadow=True, startangle=90)
+
+# show plot
+plt.axis('equal')
+plt.title('Top IT Companies FY22 Growth Graph')
+plt.show()
