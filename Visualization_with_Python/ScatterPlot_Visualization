@@ -1,0 +1,14 @@
+import matplotlib.pyplot as plt
+
+#DataSets of Nuclear power countries
+Countries_Name =["India","USA","Russia","China","Pakistan","UK","France"]
+
+Number_Of_Nuclear_Weapons =[160, 5428, 5977, 350, 165, 225, 290]
+
+plt.scatter(Countries_Name, Number_Of_Nuclear_Weapons, c ="Blue")
+
+# To show the plot
+plt.xlabel("Nuclear Power Countries Name")
+plt.ylabel("Number of Warheads")
+plt.title("Nuclear Weapons Scatterplot Insights")
+plt.show()
